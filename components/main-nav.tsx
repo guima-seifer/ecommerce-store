@@ -9,7 +9,9 @@ interface MainNavProps {
   data: Category[]
 }
 
-const MainNav: React.FC<MainNavProps> = ({ data }) => {
+const MainNav: React.FC<MainNavProps> = ({ 
+  data 
+}) => {
   const pathname = usePathname()
 
   const routes = data.map((route) => ({

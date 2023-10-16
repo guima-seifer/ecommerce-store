@@ -1,6 +1,6 @@
 import Container from '@/components/ui/container'
 import Link from 'next/link'
-import MainNav from '../main-nav'
+import MainNav from '@/components/main-nav'
 import getCategories from '@/actions/get-categories'
 import NavbarActions from '@/components/navbar-actions'
 
